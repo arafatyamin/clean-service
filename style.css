@@ -1,0 +1,45 @@
+.container{
+    text-align: center;
+    
+}
+
+#card-container{
+    display:grid;
+    grid-template-columns: auto;
+}
+
+.service-container{
+    border: 1px solid #2828;
+    width: 90%;
+    margin: auto;
+    margin: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-container img{
+    width: 100%;
+
+}
+.service-container p{
+    width: 95%;
+    font-size: 12px;
+
+}
+
+@media screen and (min-width: 720px) {
+  #card-container{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+}
+@media screen and (min-width: 980px) {
+  #card-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+}
